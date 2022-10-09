@@ -10,7 +10,7 @@ import com.simplilearn.model.Greet;
 public class GreetController {
 
 	// @GetMapping("/greet")
-	@RequestMapping(value = "/greet", method = RequestMethod.GET)
+	@RequestMapping(value = "/greet1", method = RequestMethod.GET)
 	public Greet greet() {
 		Greet greet = new Greet();
 		greet.setMessage("Hello, Simplilearn!");
